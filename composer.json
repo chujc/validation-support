@@ -1,0 +1,26 @@
+{
+    "name": "chujc/validation-support",
+    "description": "Laravel Lumen 字段验证 支持",
+    "keywords": ["china", "Lumen", "laravel", "validation", "validate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "john_chu",
+            "email": "john1668@qq.com"
+        }
+    ],
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChuJC\\Validation\\ValidationServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ChuJC\\Validation\\": "src/"
+        }
+    }
+}
